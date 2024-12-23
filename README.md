@@ -14,27 +14,21 @@ This is my first plugin, so I’d be grateful if you could point out any mistake
 
 ## Installation
 
-### Using [vim-plug](https://github.com/junegunn/vim-plug)
+You can install the plugin using your favorite plugin manager.
 
-1. Add the plugin to your `vimrc` or `init.vim`:
-   ```vim
-   Plug 'ijwwsq/vim750'
-   ```
-2. Install the plugin:
-   ```
-   :PlugInstall
-   ```
+```vim
+" Using vim-plug
+Plug 'ijwwsq/vim750'
 
-### Using packer.nvim
+" Run the following command in Vim/Neovim to install:
+:PlugInstall
 
-1. Add the plugin to your lua/plugins.lua or similar:
-  ```
-  use 'ijwwsq/vim750'
-  ```
-2. Install the plugin:
-  ```
-  :PackerSync
-  ```
+" Using packer.nvim
+use 'ijwwsq/vim750'
+
+" Run the following command in Neovim to install:
+:PackerSync
+```
 
 ## Usage
 ### Commands
