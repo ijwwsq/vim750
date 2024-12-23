@@ -21,9 +21,9 @@ This is my first plugin, so I’d be grateful if you could point out any mistake
    Plug 'ijwwsq/vim750'
    ```
 2. Install the plugin:
-    ```
-    :PlugInstall
-    ```
+   ```
+   :PlugInstall
+   ```
 
 ### Using packer.nvim
 
